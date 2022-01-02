@@ -2,12 +2,14 @@
 
 ### **Contact information:**
 
-**Phone:** +79788318191
+**Phone:**  +79788318191
 
 **E-mail:** [4079722@mail.ru](mailto:4079722@mail.ru)
 
 **Discord:** MarinaSokolan#1954
+
 *************************
+
 **Code:**
 
     let number,
@@ -44,4 +46,4 @@ I am 36 years old, I work as a QA engineer. My work is quite interesting, but I 
 ### **Languages**
 
 -   **Russian**  - native speaker.
--   **English**  - B1
+-   **English**  - B2
