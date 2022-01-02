@@ -46,4 +46,4 @@ I am 36 years old, I work as a QA engineer. My work is quite interesting, but I 
 ### **Languages**
 
 -   **Russian**  - native speaker.
--   **English**  - B2
+-   **English**  - B1
