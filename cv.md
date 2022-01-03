@@ -32,7 +32,7 @@ I am 36 years old, I work as a QA engineer. My work is quite interesting, but I 
 
 *************
 
-### **Skills and Proficiency:**
+### **Skills:**
 
  -   HTML5, CSS3
  -   JavaScript Basics
