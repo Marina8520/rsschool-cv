@@ -1,124 +1,107 @@
-body {
-  font-family: 'Mukta', sans-serif;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  }
-  
-  @font-face {
-    font-family: Mukta;
-     src: url("assets/fonts/Mukta-Regular.ttf");
-   }
-   @font-face {
-    font-family: Lora;
-     src: url("assets/fonts/Lora-Regular.ttf");
-   }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/image1.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&amp;display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+</head>
+<body>
+<header class = "header">
+    <div class="container">
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contact information</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#myself" class="nav-link">Briefly About Myself</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container-content">
+        <div class=" ontent-center">
+            <img src="assets/img/image3.jpg" alt="my photo" width="200" height="200">
+        </div>
+        <div class="content-center">
+            <h1 class="section-title">Sokolan Marina</h1>
+        </div>
+    </div>
+</header>
 
-  *{
-    box-sizing: border-box;
-  }
-  header {
-    border: 1px solid rgb(251, 251, 252);
-    font-family: 'Lora', sans-serif;
+<main class="main">
+    <div class="container-content">
+        <section class="section-lined" id="contacts">
+            <h2 class="section-title">Contact information</h2>
+            <ul>
+                <li>Phone:  +79788318191</li>
+                <li>E-mail: 4079722@mail.ru</li>
+                <li>Discord: MarinaSokolan#1954</li>
+            </ul>
+        </section>
+        <section class="section-lined" id="code">
+            <h2 class="section-title">Code:</h2>
+            <pre>
+                let number,
+                    a,
+                    b;
+                function isDivideBy(number, a, b) {
+                    if(number%a==0 &amp;&amp; number%b==0) {
+                        return true;
+                        }
+                    else {
+                        return false;
+                    }
+                }
+                </pre>
 
-  }
-  main {
-    border: 1px solid rgb(254, 253, 255);
-    font-size: 16px;
-  }
-  footer {
-    border: 1px solid rgb(255, 255, 253);
-    background-color: rgb(198, 177, 219);
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
+        </section>
+    </div>
+    <div class="container-content">
+        <section class="section-lined" id="myself">
+            <h2 class="section-title">Briefly About Myself:</h2>
+            <p>I am 36 years old, I work as a QA engineer. My work is quite interesting, but I think that dwelling on what you already have is impossible. My goal is to get new knowledge in the field of front-end development and receive new opportunities.
+            </p>
+        </section>
+        <section class="section-lined" id="skills">
+            <h2 class="section-title">Skills:</h2>
+            <ul>
+                <li>HTML5, CSS3</li>
+                <li>JavaScript Basics</li>
+                <li>Git, GitHub</li>
+                <li>VS Code</li>
+            </ul>
+        </section>
+    </div>
+    <div class="container-content">
+        <section class="section-lined" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+                <li>Russian-native speaker</li>
+                <li>English-B1</li>
+            </ul>
+        </section>
+    </div>
+</main>
 
-  }
-  .container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-  .container-content {
-    display: flex;
-    margin: 0 auto;
-    width: 1200px;
-    justify-content: space-between;
-  }
+<footer class="footer">
+        <div class="footer-div">
+            <p>2022 - Sokolan Marina</p> 
+        </div>
 
-  .container-head {
-    max-width: 1440px;
-    font-size: 30px;
-    color: rgb(78, 65, 190);
-    margin-top: 0;
-    margin-right: 200;
-    width: 1100px;
-    text-align: center;
-  }
-  .main-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .nav-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    padding: 0 10px;
-    line-height: 60px;
-    transition: .3s;
-  }
-  .nav-item {
-    width: 250px;
-    background: rgb(190, 185, 233);
-    line-height: 120px;
-    font-size: 32px;
-    text-align: medium;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  .nav-list {
-    list-style: none;
-    background-color: rgb(190, 185, 233);
-    margin-top: 0;
-    display: flex;
-    justify-content: space-between;
-  }
-  .section {
-    width: 48%;
-  }
-  .section-lined {
-    border-top: 1px solid #000;
-  }
-  .content-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  @media (max-width: 768px) {
-    .section {
-      width: 100%;
-    }
-  }
-  .section-item {
-    position: relative;
-    padding-left: 30px;
-  }
-  
-  .section-item::before {
-    content: "";
-    position: absolute;
-    top: 8px;
-    left: 0px;
-    width: 10px;
-    height: 10px; 
-    border: 1px solid #829985;
-    border-radius: 50%;
-  }
-  .footer-div {
-    align-items: center;
-    font-size: 14px;
-  }
+        <div class="footer-div">
+            <p><a href="https://Marina8520.github.io/rsschool-cv/">My projects</a> </p>
+        </div>
+
+        <div class="footer-div">
+            <p><a href="https://rs.school/js/"><img src="assets/img/logo.jpg" width="30" 
+            height="30" alt="logo RS School"></a></p>
+        </div>
+</footer>
+</body>
+</html>
