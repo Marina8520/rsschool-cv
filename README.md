@@ -1,3 +1,1 @@
-# rsschool-cv
-https://Marina8520.github.io/rsschool-cv/cv
 https://Marina8520.github.io/rsschool-cv/
